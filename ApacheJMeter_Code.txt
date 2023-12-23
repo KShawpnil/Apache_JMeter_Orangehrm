@@ -1,0 +1,47 @@
+Thread Group:
+
+Name: Orangehrm
+Number of Threads(users): 500
+
+1. Overall Performance,
+Server name or IP: localhost
+HTTP Request: 
+Method: GET
+Path: orangehrm-5.5/web/index.php/auth/login
+
+2. View login page,
+Server name or IP: localhost
+HTTP Request: 
+Method: GET
+Path: orangehrm-5.5/web/index.php/auth/login
+
+3. Post login information,
+Server name or IP: localhost
+Token: input type="hidden" name="_csrf_token" value="(.+?)" id="csrf_token" $1$
+HTTP Request: 
+Method: POST
+Path: orangehrm-5.5/web/index.php/auth/validate
+
+4. Dashboard
+Server name or IP: localhost
+HTTP Request: 
+Method: GET
+Path: orangehrm-5.5/web/index.php/dashboard/index
+
+5. Add/Edit/View Employee
+Server name or IP: localhost
+HTTP Request: 
+Method: GET
+Path: orangehrm-5.5/web/index.php/pim/viewEmployeeList
+
+6. Recruit Candidate,
+Server name or IP: localhost
+HTTP Request: 
+Method: GET
+Path: orangehrm-5.5/web/index.php/recruitment/viewCandidates
+
+7. Track/View Attendance Record,
+Server name or IP: localhost
+HTTP Request: 
+Method: GET
+Path: orangehrm-5.5/web/index.php/attendance/viewAttendanceRecord
