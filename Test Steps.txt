@@ -1,0 +1,22 @@
+﻿The test steps in Apache JMeter involve creating and configuring a test plan to simulate user interactions with a system, execute performance tests, and analyze the results. Here is a brief overview of the key test steps in Apache JMeter:
+
+
+1. Create a Test Plan: Open JMeter and create a new test plan. The test plan serves as the container for all test elements.
+
+
+2. Add Thread Group: Within the test plan, add a Thread Group. The Thread Group defines the number of users (threads) and the test duration.
+
+
+3. Add Sampler: Add one or more samplers to simulate user actions. Common samplers include HTTP Requests for web applications.
+
+
+4. Add Listeners: Add listeners to view and analyze test results. Common listeners include View Results Tree, Summary Report, and Response Times Over Time.
+
+
+5. Run the Test: Click the “Run” menu to simulate the defined user actions based on the configured Thread Group and samplers.
+
+
+6. Analyze Results: After the test completes, analyze the results using the configured listeners. Identify view response times, errors, and assess the overall system performance.
+
+
+7. Save Test Plan: Save the test plan for future use and from excel sheet you can represent the data in graphs.
